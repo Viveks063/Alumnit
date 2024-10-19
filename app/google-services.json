@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "17603884541",
+    "firebase_url": "https://alumniti-61f3a-default-rtdb.firebaseio.com",
+    "project_id": "alumniti-61f3a",
+    "storage_bucket": "alumniti-61f3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17603884541:android:199b85c641e2afaa685594",
+        "android_client_info": {
+          "package_name": "com.example.alumniti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIGumKr__9_-233DABisF2ZADPNSthZdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

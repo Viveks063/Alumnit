@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#837FEB"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:background="@drawable/bordermain"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:id="@+id/likebutton"
+        android:src="@drawable/like" />
+
+    <ImageView
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:id="@+id/commentbutton"
+        android:layout_margin="20dp"
+        android:src="@drawable/send"
+
+        />
+
+    <ImageView
+        android:layout_width="47dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:id="@+id/sharebutton"
+        android:src="@drawable/send1"
+
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caption:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/postContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/postTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D1D0D0" />
+
+</LinearLayout>
+
